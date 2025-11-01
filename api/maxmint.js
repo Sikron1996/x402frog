@@ -15,10 +15,10 @@ export default function handler(req, res) {
         network: "base",
         chainId: 8453,
         maxAmountRequired: "60000000",
-        resource: "https://x402-website.vercel.app/api/maxmint",
+        resource: "https://x402frog.vercel.app/api/maxmint",
         description: "Max mint 20 x402Cats NFTs (Gasless via PayAI)",
         mimeType: "application/json",
-        payTo: "0x86F81966e14dA17193CC3F3d6903184730F36681",
+        payTo: "0x63AcAd363c60178e0153268a272876197770bFEf",
         maxTimeoutSeconds: 300,
         asset: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
         facilitator: "https://facilitator.payai.network",
@@ -43,7 +43,7 @@ export default function handler(req, res) {
           }
         },
         extra: {
-          contractAddress: "0x86F81966e14dA17193CC3F3d6903184730F36681",
+          contractAddress: "0x63AcAd363c60178e0153268a272876197770bFEf",
           network: "base",
           chainId: 8453,
           quantity: 20,
